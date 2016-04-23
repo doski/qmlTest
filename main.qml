@@ -235,7 +235,7 @@ Rectangle {
 // Jedne prostokąt śledzi drugi płynnie
 // "Behavior on x" - animacja zadeklarowana wewnątrz Behavior zostanie wykonana, gdy
 // property "x" nagle się zmieni.
-
+/*
 Rectangle {
     width: 800; height: 600
     color: "blue"
@@ -261,7 +261,7 @@ Rectangle {
     Keys.onUpPressed: rect1.y = rect1.y - 100
     Keys.onDownPressed: rect1.y = rect1.y + 100
 }
-
+*/
 
 
 // Przykład 10
@@ -413,7 +413,7 @@ Rectangle {
 
 // Przykład 16
 // Użycie "ScriptAction" do wykonania skryptu podczas animacji.
-/*
+
 Item {
     width: 200; height: 200
 
@@ -434,5 +434,5 @@ Item {
         }
     }
 }
-*/
+
 
